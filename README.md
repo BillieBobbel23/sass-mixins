@@ -3,10 +3,16 @@ Short library of useful mixins for rapid Front-end development (written in SCSS)
 
 ## components
 This will contain:
-- Color maps
-- Font settings
-- various other settings
-- global config file
+- Text mixins
+  - Font properties (color, size, transform, decoration, font-family, ...)
+  - Truncate (ellipsis, no-clip, ...)
+- Animation mixins
+  - Global animation settings
+- Viewport mixins 
+  - Easy @media
+- Block mixins
+  - Border (easy setting of borders)
+  - Position (easy positioning)
 
 
 ## installation

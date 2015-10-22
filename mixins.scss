@@ -1,0 +1,21 @@
+/**
+* _mixins.scss,
+* Holds all @mixin files
+*/
+
+@import 'core/core'; // needed because functions
+
+/* text related */
+@import 'text/truncate';
+@import 'text/font';
+@import 'text/links';
+
+/* viewport related */
+@import 'viewport/screen';
+
+/* animation related */
+@import 'animation/settings';
+
+/* block sizing */
+@import 'block/border';
+@import 'block/position';
